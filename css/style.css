@@ -10,3 +10,57 @@ html,body{
     background-size: cover;
 }
 
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+.container-1{
+    width: 800px; /* Largura do quadrado */
+    height: 410px; /* Altura do quadrado */
+    background-color: #2f3033; /* Cor do quadrado */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Coloca os itens em coluna em vez de linha (o padrão) */
+    align-items: center; /* Alinha os itens no centro do contêiner */
+
+}
+
+.container-1 h1{
+    background-size: cover;
+    display: flex;
+    position: relative;
+    float: right;
+    top: 40px; /* Ajuste conforme necessário para a posição vertical */
+    left: -150px; /* Ajuste conforme necessário para a posição horizontal */
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.container-1 p{
+    background-size: cover;
+    display: flex;
+    position: relative;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 15px;
+    top: 40px; /* Ajuste conforme necessário para a posição vertical */
+    left: -150px; /* Ajuste conforme necessário para a posição horizontal */
+}
+
+.container-qr{
+    width: 180px; /* Largura do quadrado */
+    height: 180px; /* Altura do quadrado */
+    background-image: url(../images/fakeQR_2.jpg);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    float: right;
+    top: -20px; /* Ajuste conforme necessário para a posição vertical */
+    left: 240px; /* Ajuste conforme necessário para a posição horizontal */
+}
