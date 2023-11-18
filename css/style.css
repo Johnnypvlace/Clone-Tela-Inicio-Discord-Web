@@ -21,12 +21,11 @@ body {
 .container-1{
     width: 800px; /* Largura do quadrado */
     height: 410px; /* Altura do quadrado */
-    background-color: #2f3033; /* Cor do quadrado */
+    background-color: #363638; /* Cor do quadrado */
     border-radius: 10px;
     display: flex;
     flex-direction: column; /* Coloca os itens em coluna em vez de linha (o padrão) */
     align-items: center; /* Alinha os itens no centro do contêiner */
-
 }
 
 .container-1 h1{
@@ -34,6 +33,7 @@ body {
     display: flex;
     position: relative;
     float: right;
+    color: white;
     top: 40px; /* Ajuste conforme necessário para a posição vertical */
     left: -150px; /* Ajuste conforme necessário para a posição horizontal */
     font-size: 22px;
@@ -42,15 +42,16 @@ body {
 }
 
 .container-1 p{
+    color: rgb(160, 157, 157);
     background-size: cover;
     display: flex;
     position: relative;
     float: right;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     padding: 15px;
     top: 40px; /* Ajuste conforme necessário para a posição vertical */
-    left: -150px; /* Ajuste conforme necessário para a posição horizontal */
+    left: -170px; /* Ajuste conforme necessário para a posição horizontal */
 }
 
 .container-qr{
@@ -61,6 +62,41 @@ body {
     display: flex;
     position: relative;
     float: right;
-    top: -20px; /* Ajuste conforme necessário para a posição vertical */
+    top: -105px; /* Ajuste conforme necessário para a posição vertical */
     left: 240px; /* Ajuste conforme necessário para a posição horizontal */
+}
+
+.container-1 h2{
+     background-size: cover;
+     display: flex;
+     position: relative;
+     float: left;
+     color: white;
+     top: 185px; /* Ajuste conforme necessário para a posição vertical */
+     left: 240px; /* Ajuste conforme necessário para a posição horizontal */
+     font-size: 22px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+ }
+ 
+ .container-1 h3{
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    color: rgba(255, 255, 255, 0.61);
+     top: 200px; /* Ajuste conforme necessário para a posição vertical */
+     left: 240px; /* Ajuste conforme necessário para a posição horizontal */
+     font-size: 15px;
+     font-weight: normal;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.form, input-container{
+    background-size: cover;
+    display: flex;
+    position: relative;
+    margin-bottom: 30px;
+    top: -160px; /* Ajuste conforme necessário para a posição vertical */
+    left: -170px; /* Ajuste conforme necessário para a posição horizontal */
 }
