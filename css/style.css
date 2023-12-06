@@ -21,7 +21,7 @@ body {
 .container-1{
     width: 800px; /* Largura do quadrado */
     height: 410px; /* Altura do quadrado */
-    background-color: #363638; /* Cor do quadrado */
+    background-color: #313338; /* Cor do quadrado */
     border-radius: 10px;
     display: flex;
     flex-direction: column; /* Coloca os itens em coluna em vez de linha (o padrão) */
@@ -42,7 +42,7 @@ body {
 }
 
 .container-1 p{
-    color: rgb(160, 157, 157);
+    color: #B5BAC1;
     background-size: cover;
     display: flex;
     position: relative;
@@ -51,19 +51,20 @@ body {
     font-size: 15px;
     padding: 15px;
     top: 40px; /* Ajuste conforme necessário para a posição vertical */
-    left: -170px; /* Ajuste conforme necessário para a posição horizontal */
+    left: -160px; /* Ajuste conforme necessário para a posição horizontal */
 }
 
 .container-qr{
     width: 180px; /* Largura do quadrado */
     height: 180px; /* Altura do quadrado */
-    background-image: url(../images/fakeQR_2.jpg);
+    background-image: url(../images/fakeQR_2.jpg.png);
     background-size: cover;
     display: flex;
     position: relative;
     float: right;
     top: -105px; /* Ajuste conforme necessário para a posição vertical */
     left: 240px; /* Ajuste conforme necessário para a posição horizontal */
+    border-radius: 5px;
 }
 
 .container-1 h2{
@@ -84,7 +85,7 @@ body {
     background-size: cover;
     display: flex;
     position: relative;
-    color: rgba(255, 255, 255, 0.61);
+    color: #B5BAC1;
      top: 200px; /* Ajuste conforme necessário para a posição vertical */
      left: 240px; /* Ajuste conforme necessário para a posição horizontal */
      font-size: 15px;
@@ -92,11 +93,62 @@ body {
      font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .form, input-container{
-    background-size: cover;
-    display: flex;
+    color: rgba(255, 255, 255, 0.61);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
     position: relative;
     margin-bottom: 30px;
-    top: -160px; /* Ajuste conforme necessário para a posição vertical */
+    top: -215px; /* Ajuste conforme necessário para a posição vertical */
     left: -170px; /* Ajuste conforme necessário para a posição horizontal */
+    height: 50px;
 }
+
+.form1{
+    background-color: #1E1F22;
+    width: 410px;
+    height: 44px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0 none;
+    margin: 8px 0;
+
+}
+
+.formsub{
+    background-color: #6874F7;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    width: 410px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0 none;
+}
+
+.tag1{
+    margin: 2px;
+    font-weight: bold;
+}
+
+.tag2{
+    margin: 2px;
+    font-weight: bold;
+}
+
+.tag3{
+    color: #66BCFF;
+    margin: 2px;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.tag4{
+    color: #949BA4;
+    font-weight: normal;
+    margin: 2px;
+    font-size: 13px;
+}
+
