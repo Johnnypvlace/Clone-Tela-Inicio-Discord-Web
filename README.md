@@ -1,1 +1,1 @@
-Projeto feito com base no Curso "Curso Webmaster Front-End Completo" da Danki Code, na qual foi proposto um clone da tela inicial do Facebook (Bloco 'HTML5 e as Novidades'), porém, optei por criar um clone da tela inicial do Discord Web.
+<img src="/images/projeto_finalizado.PNG">
